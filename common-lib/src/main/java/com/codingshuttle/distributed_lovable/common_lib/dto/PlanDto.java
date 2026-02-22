@@ -1,6 +1,6 @@
-package com.codingshuttle.distributed_lovable.account_service.dto.subscription;
+package com.codingshuttle.distributed_lovable.common_lib.dto;
 
-public record PlanResponse(
+public record PlanDto(
         Long id,
         String name,
         Integer maxProjects,
